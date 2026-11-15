@@ -91,7 +91,10 @@ async function scanner(navigateur, urlBrute) {
     userAgent: UA,
     viewport: { width: 1366, height: 900 },
     locale: 'fr-FR',
-    ignoreHTTPSErrors: true
+    ignoreHTTPSErrors: true,
+    // Certains sites interdisent l'injection de script par leur politique de
+    // securite ; sans cette option, axe-core ne peut pas s'executer chez eux.
+    bypassCSP: true
   });
 
   try {
