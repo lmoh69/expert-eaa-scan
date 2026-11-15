@@ -1,0 +1,11 @@
+{
+  "name": "expert-eaa-scan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scanner d'accessibilite automatique (axe-core) pour Expert EAA",
+  "dependencies": {
+    "axe-core": "4.10.2",
+    "playwright": "1.49.1"
+  }
+}

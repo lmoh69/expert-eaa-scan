@@ -1,0 +1,38 @@
+name: Scan accessibilite
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Adresses des sites a scanner, separees par des virgules (15 max)"
+        required: true
+        type: string
+      ref_lot:
+        description: "Identifiant du lot (facultatif)"
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Installer les dependances
+        run: npm install --no-audit --no-fund
+
+      - name: Installer Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Lancer le scan
+        env:
+          URLS: ${{ inputs.urls }}
+          REF_LOT: ${{ inputs.ref_lot }}
+          WEBHOOK: ${{ secrets.MAKE_WEBHOOK }}
+        run: node scan.mjs
