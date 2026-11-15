@@ -31,6 +31,13 @@ const UA =
 const CHEMINS =
   /\/(produit|produits|product|products|boutique|shop|panier|cart|collections|categorie|category|catalogue)(\/|\?|$|-)/i;
 
+// Un fichier n'est pas une page de vente. Sans ce garde-fou, le chemin d'un CDN
+// (/cdn/shop/files/favicon.png) passe pour une fiche produit, et le message
+// annoncerait des defauts sur une image : de quoi perdre le prospect sur place.
+const FICHIERS =
+  /\.(png|jpe?g|gif|webp|svg|ico|avif|css|js|mjs|json|xml|pdf|txt|zip|woff2?|ttf|eot|mp4|webm|mp3|csv)(\?|#|$)/i;
+const DOSSIERS_TECHNIQUES = /\/(cdn|assets|static|_next|wp-content|wp-includes|media)\//i;
+
 const IGNORER =
   /(sentry|wixpress|wordpress|yoast|godaddy|@2x|\.png|\.jpg|\.jpeg|\.gif|\.webp|\.svg|example|exemple|@mail\.com|@domaine|@votresite|@monsite|@site\.|^(votre|vous|nom|prenom|email|mail|adresse|test|essai|no-?reply|ne-?pas-?repondre|utilisateur|user|john|jane)@)/i;
 
@@ -207,8 +214,10 @@ async function scanner(nav, brute) {
     const candidats = [];
     for (const m of html.matchAll(/href=["']([^"'>\s]+)["']/gi)) {
       if (!CHEMINS.test(m[1])) continue;
+      if (FICHIERS.test(m[1]) || DOSSIERS_TECHNIQUES.test(m[1])) continue;
       try {
         const abs = new URL(m[1], r.url_finale);
+        if (FICHIERS.test(abs.pathname) || DOSSIERS_TECHNIQUES.test(abs.pathname)) continue;
         if (hote(abs.href) === hote(r.url_finale) && !candidats.includes(abs.href)) {
           candidats.push(abs.href);
         }
@@ -217,10 +226,13 @@ async function scanner(nav, brute) {
       }
     }
 
-    for (const lien of candidats.slice(0, 3)) {
+    for (const lien of candidats.slice(0, 4)) {
       try {
         const rep = await page.goto(lien, { waitUntil: 'domcontentloaded', timeout: 30000 });
         if (!rep || !rep.ok()) continue;
+        // On n'analyse que de vraies pages HTML, jamais un fichier servi en direct.
+        const type = (rep.headers()['content-type'] || '').toLowerCase();
+        if (!type.includes('text/html')) continue;
         await page.waitForTimeout(2000);
         const vente = lire(await passerAxe(page));
         r.url_boutique = page.url();
