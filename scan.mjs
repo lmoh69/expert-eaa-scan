@@ -1,8 +1,9 @@
 // Expert EAA - scan d'accessibilite automatique
 //
 // Lance un vrai navigateur, execute axe-core sur la page d'accueil d'un site,
-// traduit les violations en criteres RGAA, cherche une adresse de contact
-// publique, puis envoie le resultat a un webhook Make.
+// traduit les violations en criteres RGAA, releve quelques signaux de contexte
+// verifiables sur l'entreprise, cherche une adresse de contact publique, puis
+// envoie le resultat a un webhook Make.
 //
 // Variables d'environnement :
 //   URLS    : adresses separees par des virgules (15 maximum)
@@ -70,6 +71,27 @@ function emailsDepuisHtml(html, hote) {
   return [...new Set([...memeDomaine, ...generiques, ...liste])].slice(0, 5);
 }
 
+// La technologie du site se lit dans le code source. C'est un fait verifiable,
+// utile pour ouvrir un message sans flatterie ni approximation.
+function technologie(html) {
+  const signatures = [
+    [/wp-content|wp-includes|wp-json/i, 'WordPress'],
+    [/cdn\.shopify\.com|Shopify\.theme/i, 'Shopify'],
+    [/assets\.website-files\.com|\.webflow\.|webflow\.js/i, 'Webflow'],
+    [/wixstatic|_wixCssImports|parastorage/i, 'Wix'],
+    [/prestashop/i, 'PrestaShop'],
+    [/squarespace/i, 'Squarespace'],
+    [/joomla/i, 'Joomla'],
+    [/drupal/i, 'Drupal'],
+    [/magento|mage\/cookies/i, 'Magento'],
+    [/\/_next\/static/i, 'Next.js'],
+    [/data-sveltekit/i, 'SvelteKit'],
+    [/__NUXT__/i, 'Nuxt']
+  ];
+  for (const [re, nom] of signatures) if (re.test(html)) return nom;
+  return '';
+}
+
 async function scanner(navigateur, urlBrute) {
   const url = normaliser(urlBrute);
   const hote = domaine(url);
@@ -86,6 +108,9 @@ async function scanner(navigateur, urlBrute) {
     nb_bloquants: 0,
     defauts: [],
     resume: '',
+    contexte: '',
+    technologie: '',
+    page_accessibilite: false,
     emails: [],
     scanne_le: new Date().toISOString()
   };
@@ -149,8 +174,43 @@ async function scanner(navigateur, urlBrute) {
       .map((d) => `- RGAA ${d.rgaa} : ${d.libelle} (${d.nb} element${d.nb > 1 ? 's' : ''} concerne${d.nb > 1 ? 's' : ''})`)
       .join('\n');
 
-    // Recherche d'une adresse de contact publique
+    // Signaux de contexte : de quoi ouvrir un message sur un fait reel.
+    const signaux = await page.evaluate(() => {
+      const attr = (s, a) => document.querySelector(s)?.getAttribute(a) || '';
+      const liens = [...document.querySelectorAll('a')];
+      const nav = [...document.querySelectorAll('nav a, header a')]
+        .map((a) => (a.innerText || '').replace(/\s+/g, ' ').trim())
+        .filter((t) => t.length > 1 && t.length < 28);
+      return {
+        description: attr('meta[name="description"]', 'content').slice(0, 280),
+        h1: (document.querySelector('h1')?.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 140),
+        langue: document.documentElement.getAttribute('lang') || '',
+        menu: [...new Set(nav)].slice(0, 10),
+        accessibilite: liens.some(
+          (a) =>
+            /accessibilit/i.test(a.innerText || '') ||
+            /accessibilit/i.test(a.getAttribute('href') || '')
+        )
+      };
+    });
+
     const htmlAccueil = await page.content();
+    resultat.technologie = technologie(htmlAccueil);
+    resultat.page_accessibilite = signaux.accessibilite;
+
+    const lignes = [];
+    if (resultat.titre_page) lignes.push(`Titre de la page : ${resultat.titre_page}`);
+    if (signaux.description) lignes.push(`Description du site : ${signaux.description}`);
+    if (signaux.h1) lignes.push(`Titre principal affiche : ${signaux.h1}`);
+    if (signaux.menu.length) lignes.push(`Entrees du menu : ${signaux.menu.join(', ')}`);
+    if (resultat.technologie) lignes.push(`Site construit avec : ${resultat.technologie}`);
+    lignes.push(
+      `Mention d'accessibilite deja presente sur le site : ${signaux.accessibilite ? 'oui' : 'non'}`
+    );
+    if (signaux.langue) lignes.push(`Langue declaree : ${signaux.langue}`);
+    resultat.contexte = lignes.join('\n');
+
+    // Recherche d'une adresse de contact publique
     let emails = emailsDepuisHtml(htmlAccueil, hote);
 
     if (emails.length === 0) {
@@ -204,6 +264,7 @@ for (const u of URLS) {
   const r = await scanner(navigateur, u);
   if (r.ok) {
     console.log(`  ${r.defauts.length} critere(s) RGAA en defaut, ${r.total_elements} element(s) concerne(s)`);
+    if (r.technologie) console.log(`  techno : ${r.technologie}`);
     if (r.emails.length) console.log(`  contact : ${r.emails[0]}`);
   } else {
     console.log(`  echec : ${r.erreur}`);
