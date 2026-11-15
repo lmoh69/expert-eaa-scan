@@ -48,8 +48,11 @@ function domaine(u) {
   }
 }
 
+// Adresses techniques, fichiers mal interpretes, et surtout les adresses
+// d'exemple que beaucoup de sites laissent dans leurs maquettes de formulaire :
+// en ecrire une dans un e-mail de prospection ferait perdre le prospect.
 const EMAILS_A_IGNORER =
-  /(sentry|wixpress|example|@2x|\.png|\.jpg|\.jpeg|\.gif|\.webp|\.svg|godaddy|@sentry)/i;
+  /(sentry|wixpress|wordpress|yoast|godaddy|@2x|\.png|\.jpg|\.jpeg|\.gif|\.webp|\.svg|example|exemple|@mail\.com|@domaine|@votresite|@monsite|@site\.|^(votre|vous|nom|prenom|email|mail|adresse|test|essai|no-?reply|ne-?pas-?repondre|utilisateur|user|john|jane)@)/i;
 
 function emailsDepuisHtml(html, hote) {
   const trouves = new Set();
