@@ -1,0 +1,122 @@
+# Declarations d'accessibilite - 2026-11-27
+
+Departements : 69, 38, 42, 01 - 150 site(s) verifie(s)
+
+- aucune_mention : 69
+- mention_sans_declaration : 32
+- declare_non_conforme : 8
+- declaration_incomplete : 7
+- conformite_partielle : 7
+- injoignable : 27
+
+## A prospecter en priorite
+
+- **Ampuis** (69) - https://www.ampuis.fr/ - aucune mention d'accessibilite sur le site
+- **Aranc** (01) - http://www.aranc.info - aucune mention d'accessibilite sur le site
+- **Assieu** (38) - https://www.mairie-assieu.com/ - aucune mention d'accessibilite sur le site
+- **Auris** (38) - https://www.mairie-auris.fr/ - aucune mention d'accessibilite sur le site
+- **Bard** (42) - http://www.bard.fr - aucune mention d'accessibilite sur le site
+- **Beaurepaire** (38) - https://www.ville-beaurepaire.fr - aucune mention d'accessibilite sur le site
+- **Bény** (01) - http://www.mairie-beny.fr - aucune mention d'accessibilite sur le site
+- **Bourg-Saint-Christophe** (01) - http://www.bourg-saint-christophe.fr - aucune mention d'accessibilite sur le site
+- **Brullioles** (69) - http://www.brullioles.fr - aucune mention d'accessibilite sur le site
+- **Caluire-et-Cuire** (69) - https://www.ville-caluire.fr/ - aucune mention d'accessibilite sur le site
+- **Charantonnay** (38) - https://www.charantonnay.fr/ - aucune mention d'accessibilite sur le site
+- **Charly** (69) - https://mairie-charly.fr/ - aucune mention d'accessibilite sur le site
+- **Chatonnay** (38) - https://www.chatonnay.fr - aucune mention d'accessibilite sur le site
+- **Chonas-l'Amballan** (38) - https://www.mairie-chonaslamballan.fr/ - aucune mention d'accessibilite sur le site
+- **Chozeau** (38) - https://www.chozeau.com/ - aucune mention d'accessibilite sur le site
+- **Civens** (42) - http://www.mairie-civens.fr - aucune mention d'accessibilite sur le site
+- **Corveissiat** (01) - http://www.corveissiat.grandbourg.fr - aucune mention d'accessibilite sur le site
+- **Domsure** (01) - http://www.domsure.fr - aucune mention d'accessibilite sur le site
+- **Essertines-en-Châtelneuf** (42) - http://www.essertines-en-chatelneuf.fr - aucune mention d'accessibilite sur le site
+- **Éveux** (69) - https://www.eveux.fr/ - aucune mention d'accessibilite sur le site
+- **Granieu** (38) - https://www.granieu.fr - aucune mention d'accessibilite sur le site
+- **Jas** (42) - http://www.mairie-jas.fr - aucune mention d'accessibilite sur le site
+- **La Frette** (38) - https://www.lafrette.fr - aucune mention d'accessibilite sur le site
+- **La Gresle** (42) - https://mairielagresle.fr - aucune mention d'accessibilite sur le site
+- **La Morte** (38) - https://www.mairielamorte.fr/ - aucune mention d'accessibilite sur le site
+- **La Ricamarie** (42) - https://www.ville-laricamarie.fr/ - aucune mention d'accessibilite sur le site
+- **La Terrasse-sur-Dorlay** (42) - http://www.la-terrasse-sur-dorlay.com - aucune mention d'accessibilite sur le site
+- **La Verpillière** (38) - https://www.laverpilliere.fr - aucune mention d'accessibilite sur le site
+- **Lantenay** (01) - http://www.lantenay.fr - aucune mention d'accessibilite sur le site
+- **Larajasse** (69) - http://www.larajasse.fr - aucune mention d'accessibilite sur le site
+- **Lentilly** (69) - https://www.mairie-lentilly.fr/ - aucune mention d'accessibilite sur le site
+- **Livet-et-Gavet** (38) - https://www.mairie-livetgavet.fr - aucune mention d'accessibilite sur le site
+- **Montchal** (42) - https://www.montchal.fr - aucune mention d'accessibilite sur le site
+- **Nivigne-et-Suran** (01) - https://www.nivigne-et-suran.fr/ - aucune mention d'accessibilite sur le site
+- **Notre-Dame-de-Commiers** (38) - https://notredamedecommiers.fr/ - aucune mention d'accessibilite sur le site
+- **Prémillieu** (01) - https://www.mairie-premillieu01.fr/ - aucune mention d'accessibilite sur le site
+- **Quaix-en-Chartreuse** (38) - http://www.quaix-en-chartreuse.fr - aucune mention d'accessibilite sur le site
+- **Réaumont** (38) - https://mairie-reaumont.fr/ - aucune mention d'accessibilite sur le site
+- **Roche-la-Molière** (42) - https://www.roche-la-moliere.fr/ - aucune mention d'accessibilite sur le site
+- **Saint-André-sur-Vieux-Jonc** (01) - https://www.standresurvieuxjonc.fr/ - aucune mention d'accessibilite sur le site
+- **Saint-Bonnet-le-Troncy** (69) - http://www.saintbonnetletroncy.net - aucune mention d'accessibilite sur le site
+- **Saint-Christophe-sur-Guiers** (38) - https://www.stchristophesurguiers.fr/ - aucune mention d'accessibilite sur le site
+- **Saint-Clément-les-Places** (69) - http://saintclementlesplaces.fr - aucune mention d'accessibilite sur le site
+- **Saint-Didier-d'Aussiat** (01) - http://www.saint-didier-daussiat.com - aucune mention d'accessibilite sur le site
+- **Saint-Geoirs** (38) - https://www.mairiestgeoirs.fr - aucune mention d'accessibilite sur le site
+- **Saint-Georges-sur-Renon** (01) - http://www.saint-georges-sur-renon.fr - aucune mention d'accessibilite sur le site
+- **Saint-Just-d'Avray** (69) - http://www.stjustdavray.fr/V2/ - aucune mention d'accessibilite sur le site
+- **Saint-Maurice-de-Beynost** (01) - https://www.saint-maurice-de-beynost.fr/ - aucune mention d'accessibilite sur le site
+- **Saint-Sixte** (42) - https://stsixte.fr/ - aucune mention d'accessibilite sur le site
+- **Saint-Symphorien-de-Lay** (42) - https://www.stsymphoriendelay.fr - aucune mention d'accessibilite sur le site
+- **Saint-Victor-de-Cessieu** (38) - https://saintvictordecessieu.fr/ - aucune mention d'accessibilite sur le site
+- **Sainte-Croix-en-Jarez** (42) - https://saintecroixenjarez.fr - aucune mention d'accessibilite sur le site
+- **Sainte-Foy-Saint-Sulpice** (42) - https://www.stefoystsulpice.fr/ - aucune mention d'accessibilite sur le site
+- **Samognat** (01) - https://samognat.fr/ - aucune mention d'accessibilite sur le site
+- **Sauvain** (42) - https://www.sauvain.fr - aucune mention d'accessibilite sur le site
+- **Sauverny** (01) - https://www.mairie-sauverny.fr/ - aucune mention d'accessibilite sur le site
+- **Serrières-de-Briord** (01) - http://www.mairieserrieresdebriord.fr - aucune mention d'accessibilite sur le site
+- **Simandre-sur-Suran** (01) - https://simandre-sur-suran.wixsite.com/accueil - aucune mention d'accessibilite sur le site
+- **Simandres** (69) - https://www.simandres.fr/ - aucune mention d'accessibilite sur le site
+- **Solore-en-Forez** (42) - https://solore-en-forez.fr/ - aucune mention d'accessibilite sur le site
+- **Taluyers** (69) - https://www.mairie-taluyers.fr - aucune mention d'accessibilite sur le site
+- **Tarentaise** (42) - http://tarentaise-pilat.fr - aucune mention d'accessibilite sur le site
+- **Thil** (01) - https://www.thil.fr/ - aucune mention d'accessibilite sur le site
+- **Thurins** (69) - http://www.thurins-commune.fr - aucune mention d'accessibilite sur le site
+- **Trelins** (42) - https://www.trelins.fr - aucune mention d'accessibilite sur le site
+- **Val-Revermont** (01) - https://www.val-revermont.fr/ - aucune mention d'accessibilite sur le site
+- **Vernaison** (69) - http://www.vernaison.fr - aucune mention d'accessibilite sur le site
+- **Vêtre-sur-Anzon** (42) - http://vetre-sur-anzon.fr - aucune mention d'accessibilite sur le site
+- **Villechenève** (69) - https://www.villecheneve.com/ - aucune mention d'accessibilite sur le site
+- **Ambérieux-en-Dombes** (01) - http://www.amberieux-en-dombes.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Arnas** (69) - https://arnas.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Crachier** (38) - https://www.crachier.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Cras** (38) - https://cras38.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Entre-deux-Guiers** (38) - http://www.entredeuxguiers.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Faverges-de-la-Tour** (38) - https://www.faverges-tour.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Francheville** (69) - http://www.mairie-francheville69.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Givors** (69) - https://www.givors.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **L'Albenc** (38) - https://albenc.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **La Mulatière** (69) - https://www.lamulatiere.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **La Talaudière** (42) - https://www.mairie-la-talaudiere.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Le Coteau** (42) - https://www.lecoteau.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Le Versoud** (38) - https://www.ville-leversoud.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Lyon - 5e arrondissement** (69) - https://mairie5.lyon.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Mably** (42) - https://www.ville-mably.fr/fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Moirans** (38) - https://www.ville-moirans.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Montrevel** (38) - https://www.montrevel.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Pajay** (38) - http://www.pajay.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Poliénas** (38) - https://polienas.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Polliat** (01) - https://www.polliat.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Rochetaillée-sur-Saône** (69) - https://www.rochetaillee-sur-saone.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Barthélemy-Lestra** (42) - http://www.saintbarthelemylestra.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Étienne** (42) - https://www.saint-etienne.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Hilaire-du-Rosier** (38) - https://saint-hilaire-du-rosier.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Laurent-d'Agny** (69) - https://www.saint-laurent-dagny.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Laurent-de-Chamousset** (69) - http://www.saintlaurentdechamousset.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Michel-en-Beaumont** (38) - https://www.saint-michel-en-beaumont.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Pierre-de-Chérennes** (38) - https://saint-pierre-de-cherennes.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Saint-Pierre-la-Palud** (69) - https://www.saintpierrelapalud.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Sainte-Julie** (01) - https://www.saintejulie.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Vienne** (38) - https://vienne.fr/ - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Villieu-Loyes-Mollon** (01) - https://www.mairievlm.fr - une page accessibilite existe mais aucune declaration d'accessibilite formelle
+- **Charbonnières-les-Bains** (69) - https://www.charbonnieres.com/ - le site se declare non conforme
+- **Clonas-sur-Varèze** (38) - https://clonas.fr - le site se declare non conforme
+- **Irigny** (69) - https://www.irigny.fr/ - le site se declare non conforme
+- **L'Isle-d'Abeau** (38) - https://www.mairie-ida.fr - le site se declare non conforme
+- **Les Adrets** (38) - https://www.lesadrets.fr - le site se declare non conforme
+- **Montrond-les-Bains** (42) - https://www.montrond-les-bains.fr/ - le site se declare non conforme
+- **Saint-Léger-sur-Roanne** (42) - https://www.saintlegersurroanne.fr/ - le site se declare non conforme
+- **Saint-Martin-du-Frêne** (01) - https://www.saintmartindufresne.com/ - le site se declare non conforme

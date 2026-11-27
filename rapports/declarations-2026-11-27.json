@@ -1,0 +1,1624 @@
+{
+  "jour": "2026-11-27",
+  "departements": [
+    "69",
+    "38",
+    "42",
+    "01"
+  ],
+  "compte": {
+    "aucune_mention": 69,
+    "mention_sans_declaration": 32,
+    "declare_non_conforme": 8,
+    "declaration_incomplete": 7,
+    "conformite_partielle": 7,
+    "injoignable": 27
+  },
+  "resultats": [
+    {
+      "nom": "Ampuis",
+      "site": "https://www.ampuis.fr/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Aranc",
+      "site": "http://www.aranc.info",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Assieu",
+      "site": "https://www.mairie-assieu.com/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Auris",
+      "site": "https://www.mairie-auris.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Bard",
+      "site": "http://www.bard.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Beaurepaire",
+      "site": "https://www.ville-beaurepaire.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Bény",
+      "site": "http://www.mairie-beny.fr",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Bourg-Saint-Christophe",
+      "site": "http://www.bourg-saint-christophe.fr",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Brullioles",
+      "site": "http://www.brullioles.fr",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Caluire-et-Cuire",
+      "site": "https://www.ville-caluire.fr/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Charantonnay",
+      "site": "https://www.charantonnay.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Charly",
+      "site": "https://mairie-charly.fr/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Chatonnay",
+      "site": "https://www.chatonnay.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Chonas-l'Amballan",
+      "site": "https://www.mairie-chonaslamballan.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Chozeau",
+      "site": "https://www.chozeau.com/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Civens",
+      "site": "http://www.mairie-civens.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Corveissiat",
+      "site": "http://www.corveissiat.grandbourg.fr",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Domsure",
+      "site": "http://www.domsure.fr",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Essertines-en-Châtelneuf",
+      "site": "http://www.essertines-en-chatelneuf.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Éveux",
+      "site": "https://www.eveux.fr/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Granieu",
+      "site": "https://www.granieu.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Jas",
+      "site": "http://www.mairie-jas.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "La Frette",
+      "site": "https://www.lafrette.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "La Gresle",
+      "site": "https://mairielagresle.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "La Morte",
+      "site": "https://www.mairielamorte.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "La Ricamarie",
+      "site": "https://www.ville-laricamarie.fr/",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "La Terrasse-sur-Dorlay",
+      "site": "http://www.la-terrasse-sur-dorlay.com",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "La Verpillière",
+      "site": "https://www.laverpilliere.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Lantenay",
+      "site": "http://www.lantenay.fr",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Larajasse",
+      "site": "http://www.larajasse.fr",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Lentilly",
+      "site": "https://www.mairie-lentilly.fr/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Livet-et-Gavet",
+      "site": "https://www.mairie-livetgavet.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Montchal",
+      "site": "https://www.montchal.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Nivigne-et-Suran",
+      "site": "https://www.nivigne-et-suran.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Notre-Dame-de-Commiers",
+      "site": "https://notredamedecommiers.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Prémillieu",
+      "site": "https://www.mairie-premillieu01.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Quaix-en-Chartreuse",
+      "site": "http://www.quaix-en-chartreuse.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Réaumont",
+      "site": "https://mairie-reaumont.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Roche-la-Molière",
+      "site": "https://www.roche-la-moliere.fr/",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-André-sur-Vieux-Jonc",
+      "site": "https://www.standresurvieuxjonc.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Bonnet-le-Troncy",
+      "site": "http://www.saintbonnetletroncy.net",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Christophe-sur-Guiers",
+      "site": "https://www.stchristophesurguiers.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Clément-les-Places",
+      "site": "http://saintclementlesplaces.fr",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Didier-d'Aussiat",
+      "site": "http://www.saint-didier-daussiat.com",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Geoirs",
+      "site": "https://www.mairiestgeoirs.fr",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Georges-sur-Renon",
+      "site": "http://www.saint-georges-sur-renon.fr",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Just-d'Avray",
+      "site": "http://www.stjustdavray.fr/V2/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Maurice-de-Beynost",
+      "site": "https://www.saint-maurice-de-beynost.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Sixte",
+      "site": "https://stsixte.fr/",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Symphorien-de-Lay",
+      "site": "https://www.stsymphoriendelay.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Saint-Victor-de-Cessieu",
+      "site": "https://saintvictordecessieu.fr/",
+      "dept": "38",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Sainte-Croix-en-Jarez",
+      "site": "https://saintecroixenjarez.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Sainte-Foy-Saint-Sulpice",
+      "site": "https://www.stefoystsulpice.fr/",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Samognat",
+      "site": "https://samognat.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Sauvain",
+      "site": "https://www.sauvain.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Sauverny",
+      "site": "https://www.mairie-sauverny.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Serrières-de-Briord",
+      "site": "http://www.mairieserrieresdebriord.fr",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Simandre-sur-Suran",
+      "site": "https://simandre-sur-suran.wixsite.com/accueil",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Simandres",
+      "site": "https://www.simandres.fr/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Solore-en-Forez",
+      "site": "https://solore-en-forez.fr/",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Taluyers",
+      "site": "https://www.mairie-taluyers.fr",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Tarentaise",
+      "site": "http://tarentaise-pilat.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Thil",
+      "site": "https://www.thil.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Thurins",
+      "site": "http://www.thurins-commune.fr",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Trelins",
+      "site": "https://www.trelins.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Val-Revermont",
+      "site": "https://www.val-revermont.fr/",
+      "dept": "01",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Vernaison",
+      "site": "http://www.vernaison.fr",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Vêtre-sur-Anzon",
+      "site": "http://vetre-sur-anzon.fr",
+      "dept": "42",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Villechenève",
+      "site": "https://www.villecheneve.com/",
+      "dept": "69",
+      "page": "",
+      "classe": "aucune_mention",
+      "argument": "aucune mention d'accessibilite sur le site"
+    },
+    {
+      "nom": "Ambérieux-en-Dombes",
+      "site": "http://www.amberieux-en-dombes.fr",
+      "dept": "01",
+      "page": "https://amberieux-en-dombes.fr/accessibilite/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 0
+      }
+    },
+    {
+      "nom": "Arnas",
+      "site": "https://arnas.fr/",
+      "dept": "69",
+      "page": "https://arnas.fr/vie-pratique/accessibilite-batiments-communaux",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 100
+      }
+    },
+    {
+      "nom": "Crachier",
+      "site": "https://www.crachier.fr",
+      "dept": "38",
+      "page": "https://www.crachier.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Cras",
+      "site": "https://cras38.fr/",
+      "dept": "38",
+      "page": "https://cras38.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Entre-deux-Guiers",
+      "site": "http://www.entredeuxguiers.fr/",
+      "dept": "38",
+      "page": "http://www.entredeuxguiers.fr/fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Faverges-de-la-Tour",
+      "site": "https://www.faverges-tour.fr",
+      "dept": "38",
+      "page": "https://www.faverges-tour.fr/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Francheville",
+      "site": "http://www.mairie-francheville69.fr",
+      "dept": "69",
+      "page": "https://www.mairie-francheville69.fr/articles/obligations-de-mise-accessibilite-erp/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Givors",
+      "site": "https://www.givors.fr/",
+      "dept": "69",
+      "page": "https://www.givors.fr/solidarite/accessibilite-handicap/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "L'Albenc",
+      "site": "https://albenc.fr/",
+      "dept": "38",
+      "page": "https://albenc.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "La Mulatière",
+      "site": "https://www.lamulatiere.fr/",
+      "dept": "69",
+      "page": "https://www.lamulatiere.fr/Accessibilit%c3%a9/959/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 3
+      }
+    },
+    {
+      "nom": "La Talaudière",
+      "site": "https://www.mairie-la-talaudiere.fr/",
+      "dept": "42",
+      "page": "https://www.mairie-la-talaudiere.fr/accessibilite/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Le Coteau",
+      "site": "https://www.lecoteau.fr/",
+      "dept": "42",
+      "page": "https://www.lecoteau.fr/accessibilite-des-services-de-la-ville-du-coteau/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 0
+      }
+    },
+    {
+      "nom": "Le Versoud",
+      "site": "https://www.ville-leversoud.fr/",
+      "dept": "38",
+      "page": "https://www.ville-leversoud.fr/Accessibilit%c3%a9/458/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 3
+      }
+    },
+    {
+      "nom": "Lyon - 5e arrondissement",
+      "site": "https://mairie5.lyon.fr/",
+      "dept": "69",
+      "page": "https://mairie5.lyon.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Mably",
+      "site": "https://www.ville-mably.fr/fr/",
+      "dept": "42",
+      "page": "https://www.ville-mably.fr/fr/rb/2100373/accessibilite-des-services",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Moirans",
+      "site": "https://www.ville-moirans.fr/",
+      "dept": "38",
+      "page": "https://www.ville-moirans.fr/accessibilite/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Montrevel",
+      "site": "https://www.montrevel.fr/",
+      "dept": "38",
+      "page": "https://www.montrevel.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Pajay",
+      "site": "http://www.pajay.fr",
+      "dept": "38",
+      "page": "http://www.pajay.fr/fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 75
+      }
+    },
+    {
+      "nom": "Poliénas",
+      "site": "https://polienas.fr/",
+      "dept": "38",
+      "page": "https://polienas.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Polliat",
+      "site": "https://www.polliat.fr/",
+      "dept": "01",
+      "page": "https://www.polliat.fr/shield?u=/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 100
+      }
+    },
+    {
+      "nom": "Rochetaillée-sur-Saône",
+      "site": "https://www.rochetaillee-sur-saone.fr/",
+      "dept": "69",
+      "page": "https://www.rochetaillee-sur-saone.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Saint-Barthélemy-Lestra",
+      "site": "http://www.saintbarthelemylestra.fr",
+      "dept": "42",
+      "page": "http://www.saintbarthelemylestra.fr/fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 77
+      }
+    },
+    {
+      "nom": "Saint-Étienne",
+      "site": "https://www.saint-etienne.fr/",
+      "dept": "42",
+      "page": "https://www.saint-etienne.fr/la-commission-communale-pour-laccessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": true,
+        "totale": false,
+        "taux": 0
+      }
+    },
+    {
+      "nom": "Saint-Hilaire-du-Rosier",
+      "site": "https://saint-hilaire-du-rosier.fr/",
+      "dept": "38",
+      "page": "https://saint-hilaire-du-rosier.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Saint-Laurent-d'Agny",
+      "site": "https://www.saint-laurent-dagny.fr",
+      "dept": "69",
+      "page": "https://www.saint-laurent-dagny.fr/index.php?option=com_content&view=article&id=234",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Saint-Laurent-de-Chamousset",
+      "site": "http://www.saintlaurentdechamousset.fr",
+      "dept": "69",
+      "page": "https://accessibility-helper.co.il/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Saint-Michel-en-Beaumont",
+      "site": "https://www.saint-michel-en-beaumont.fr/",
+      "dept": "38",
+      "page": "https://saint-michel-en-beaumont.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Saint-Pierre-de-Chérennes",
+      "site": "https://saint-pierre-de-cherennes.fr/",
+      "dept": "38",
+      "page": "https://saint-pierre-de-cherennes.fr/accessibilite",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Saint-Pierre-la-Palud",
+      "site": "https://www.saintpierrelapalud.fr/",
+      "dept": "69",
+      "page": "https://www.saintpierrelapalud.fr/accessibilite/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Sainte-Julie",
+      "site": "https://www.saintejulie.fr",
+      "dept": "01",
+      "page": "https://www.saintejulie.fr/accessibilite-pmr/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 0
+      }
+    },
+    {
+      "nom": "Vienne",
+      "site": "https://vienne.fr/",
+      "dept": "38",
+      "page": "https://vienne.fr/accessibilite/",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": 0
+      }
+    },
+    {
+      "nom": "Villieu-Loyes-Mollon",
+      "site": "https://www.mairievlm.fr",
+      "dept": "01",
+      "page": "https://www.mairievlm.fr/accessibilite.php",
+      "classe": "mention_sans_declaration",
+      "argument": "une page accessibilite existe mais aucune declaration d'accessibilite formelle",
+      "details": {
+        "declaration": false,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Charbonnières-les-Bains",
+      "site": "https://www.charbonnieres.com/",
+      "dept": "69",
+      "page": "https://www.charbonnieres.com/social/declaration-d-accessibilite",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Clonas-sur-Varèze",
+      "site": "https://clonas.fr",
+      "dept": "38",
+      "page": "https://clonas.fr/article-26624-declaration-d-accessibilite",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Irigny",
+      "site": "https://www.irigny.fr/",
+      "dept": "69",
+      "page": "https://www.irigny.fr/Accessibilit%c3%a9-:-non-conforme/9/",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": 3
+      }
+    },
+    {
+      "nom": "L'Isle-d'Abeau",
+      "site": "https://www.mairie-ida.fr",
+      "dept": "38",
+      "page": "https://www.mairie-ida.fr/accessibilite/",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Les Adrets",
+      "site": "https://www.lesadrets.fr",
+      "dept": "38",
+      "page": "https://www.lesadrets.fr/1006-accessibilite.htm",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": true,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": 83
+      }
+    },
+    {
+      "nom": "Montrond-les-Bains",
+      "site": "https://www.montrond-les-bains.fr/",
+      "dept": "42",
+      "page": "https://www.montrond-les-bains.fr/declaration-accessibilite/",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": 0
+      }
+    },
+    {
+      "nom": "Saint-Léger-sur-Roanne",
+      "site": "https://www.saintlegersurroanne.fr/",
+      "dept": "42",
+      "page": "https://www.saintlegersurroanne.fr/schema-pluriannuel-accessibilite/",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": true,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Saint-Martin-du-Frêne",
+      "site": "https://www.saintmartindufresne.com/",
+      "dept": "01",
+      "page": "https://www.saintmartindufresne.com/accessibilite/",
+      "classe": "declare_non_conforme",
+      "argument": "le site se declare non conforme",
+      "details": {
+        "declaration": true,
+        "schema": true,
+        "nonConforme": true,
+        "partielle": false,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Bibost",
+      "site": "http://www.mairie-bibost.fr",
+      "dept": "69",
+      "page": "https://www.mairie-bibost.fr/fr/accessibilite",
+      "classe": "declaration_incomplete",
+      "argument": "declaration presente mais sans niveau de conformite lisible",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Biviers",
+      "site": "https://mairie-biviers.fr/fr/",
+      "dept": "38",
+      "page": "https://mairie-biviers.fr/fr/accessibilite",
+      "classe": "declaration_incomplete",
+      "argument": "declaration presente mais sans niveau de conformite lisible",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Blacé",
+      "site": "http://www.mairie-blace.fr",
+      "dept": "69",
+      "page": "https://www.mairie-blace.fr/fr/accessibilite",
+      "classe": "declaration_incomplete",
+      "argument": "declaration presente mais sans niveau de conformite lisible",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Chagnon",
+      "site": "http://www.chagnon42.fr",
+      "dept": "42",
+      "page": "https://www.chagnon42.fr/fr/accessibilite",
+      "classe": "declaration_incomplete",
+      "argument": "declaration presente mais sans niveau de conformite lisible",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Dizimieu",
+      "site": "https://dizimieu.com/fr/",
+      "dept": "38",
+      "page": "https://dizimieu.fr/fr/accessibilite",
+      "classe": "declaration_incomplete",
+      "argument": "declaration presente mais sans niveau de conformite lisible",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Saint-Didier-sur-Beaujeu",
+      "site": "http://www.saintdidiersurbeaujeu.fr/",
+      "dept": "69",
+      "page": "https://www.saintdidiersurbeaujeu.fr/fr/accessibilite",
+      "classe": "declaration_incomplete",
+      "argument": "declaration presente mais sans niveau de conformite lisible",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Voreppe",
+      "site": "https://www.voreppe.fr/",
+      "dept": "38",
+      "page": "https://www.voreppe.fr/accessibilite",
+      "classe": "declaration_incomplete",
+      "argument": "declaration presente mais sans niveau de conformite lisible",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": false,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Chessy-les-Mines",
+      "site": "https://www.chessy69.fr/",
+      "dept": "69",
+      "page": "https://www.chessy69.fr/declaration-daccessibilite/",
+      "classe": "conformite_partielle",
+      "argument": "conformite partielle declaree (0 %), sans schema pluriannuel publie",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": true,
+        "partielle": true,
+        "totale": false,
+        "taux": 0
+      }
+    },
+    {
+      "nom": "Chevry",
+      "site": "https://www.ville-chevry.fr/",
+      "dept": "01",
+      "page": "https://www.ville-chevry.fr/accessibilite",
+      "classe": "conformite_partielle",
+      "argument": "conformite partielle declaree (100 %)",
+      "details": {
+        "declaration": true,
+        "schema": true,
+        "nonConforme": false,
+        "partielle": true,
+        "totale": false,
+        "taux": 100
+      }
+    },
+    {
+      "nom": "Jons",
+      "site": "https://www.mairie-jons.fr/",
+      "dept": "69",
+      "page": "https://www.mairie-jons.fr/accessibilite",
+      "classe": "conformite_partielle",
+      "argument": "conformite partielle declaree (100 %)",
+      "details": {
+        "declaration": true,
+        "schema": true,
+        "nonConforme": false,
+        "partielle": true,
+        "totale": false,
+        "taux": 100
+      }
+    },
+    {
+      "nom": "Le Pont-de-Claix",
+      "site": "https://www.pontdeclaix.fr/",
+      "dept": "38",
+      "page": "https://www.pontdeclaix.fr/accessibilite",
+      "classe": "conformite_partielle",
+      "argument": "conformite partielle declaree (84 %), sans schema pluriannuel publie",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": true,
+        "totale": false,
+        "taux": 84
+      }
+    },
+    {
+      "nom": "Pontcharra",
+      "site": "https://pontcharra.fr/",
+      "dept": "38",
+      "page": "https://pontcharra.fr/548-accessibilite-non-conforme.htm",
+      "classe": "conformite_partielle",
+      "argument": "conformite partielle declaree, sans schema pluriannuel publie",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": true,
+        "totale": false,
+        "taux": null
+      }
+    },
+    {
+      "nom": "Rive-de-Gier",
+      "site": "https://www.rivedegier.fr/",
+      "dept": "42",
+      "page": "https://www.rivedegier.fr/accessibilite/",
+      "classe": "conformite_partielle",
+      "argument": "conformite partielle declaree (50 %)",
+      "details": {
+        "declaration": true,
+        "schema": true,
+        "nonConforme": true,
+        "partielle": true,
+        "totale": false,
+        "taux": 50
+      }
+    },
+    {
+      "nom": "Villette-d'Anthon",
+      "site": "https://www.mairie-villettedanthon.fr/",
+      "dept": "38",
+      "page": "https://www.mairie-villettedanthon.fr/Accessibilit%c3%a9-:-partiellement-conforme/178/",
+      "classe": "conformite_partielle",
+      "argument": "conformite partielle declaree (3 %), sans schema pluriannuel publie",
+      "details": {
+        "declaration": true,
+        "schema": false,
+        "nonConforme": false,
+        "partielle": true,
+        "totale": false,
+        "taux": 3
+      }
+    },
+    {
+      "nom": "Apprieu",
+      "site": "https://www.apprieu.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (503)"
+    },
+    {
+      "nom": "Besse",
+      "site": "https://besse-en-oisans.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Cezay",
+      "site": "https://cezay.fr",
+      "dept": "42",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Château-Gaillard",
+      "site": "https://chateaugaillard01.fr/fr/",
+      "dept": "01",
+      "classe": "injoignable",
+      "argument": "site injoignable (404)"
+    },
+    {
+      "nom": "Châteauvilain",
+      "site": "https://chateauvilain38.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Claveisolles",
+      "site": "https://claveisolles.fr/",
+      "dept": "69",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Heyrieux",
+      "site": "https://www.heyrieux.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (403)"
+    },
+    {
+      "nom": "Juré",
+      "site": "https://jure.fr/",
+      "dept": "42",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Lieudieu",
+      "site": "http://lieudieu.e-monsite.com",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (403)"
+    },
+    {
+      "nom": "Mairie déléguée - Chantelouve",
+      "site": "https://mairie-chanteperier.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Moiré",
+      "site": "https://moire-en-beaujolais.fr/",
+      "dept": "69",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Montagnieu",
+      "site": "https://montagnieu-isere.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Montceaux",
+      "site": "http://www.mairie-montceaux.com",
+      "dept": "01",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Peyrieu",
+      "site": "http://www.peyrieu.fr",
+      "dept": "01",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Rillieux-la-Pape",
+      "site": "https://www.rillieuxlapape.fr",
+      "dept": "69",
+      "classe": "injoignable",
+      "argument": "site injoignable (418)"
+    },
+    {
+      "nom": "Saint-André-le-Gaz",
+      "site": "https://saintandrelegaz.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Saint-Bonnet-de-Mure",
+      "site": "http://www.saintbonnetdemure.com",
+      "dept": "69",
+      "classe": "injoignable",
+      "argument": "site injoignable (418)"
+    },
+    {
+      "nom": "Saint-Didier-de-Bizonnes",
+      "site": "https://www.saintdidierdebizonnes.fr/",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (503)"
+    },
+    {
+      "nom": "Saint-Georges-Haute-Ville",
+      "site": "https://saintgeorgeshauteville.fr/",
+      "dept": "42",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Saint-Jean-de-Thurigneux",
+      "site": "https://www.saint-jean-de-thurigneux.fr",
+      "dept": "01",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Saint-Martin-la-Sauveté",
+      "site": "https://saintmartinlasauvete.fr/",
+      "dept": "42",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Saint-Sorlin-en-Bugey",
+      "site": "http://www.saint-sorlin-en-bugey.info",
+      "dept": "01",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Salt-en-Donzy",
+      "site": "http://www.salt-en-donzy.fr",
+      "dept": "42",
+      "classe": "injoignable",
+      "argument": "site injoignable (403)"
+    },
+    {
+      "nom": "Sardieu",
+      "site": "https://www.sardieu.fr",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Sonnay",
+      "site": "https://sonnay.fr",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (fetch failed)"
+    },
+    {
+      "nom": "Tignieu-Jameyzieu",
+      "site": "https://www.tignieu-jameyzieu.fr",
+      "dept": "38",
+      "classe": "injoignable",
+      "argument": "site injoignable (418)"
+    },
+    {
+      "nom": "Villefranche-sur-Saône",
+      "site": "https://www.villefranche.net/",
+      "dept": "69",
+      "classe": "injoignable",
+      "argument": "site injoignable (403)"
+    }
+  ]
+}
