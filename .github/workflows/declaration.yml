@@ -1,0 +1,37 @@
+name: Declarations accessibilite collectivites
+
+on:
+  workflow_dispatch:
+    inputs:
+      depts:
+        description: "Codes departement separes par des virgules"
+        required: false
+        default: "69,38,42,01"
+      max:
+        description: "Nombre de communes a verifier"
+        required: false
+        default: "200"
+
+permissions:
+  contents: write
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Verifier les declarations
+        env:
+          DEPTS: ${{ inputs.depts }}
+          MAX: ${{ inputs.max }}
+        run: node declaration.mjs
+      - name: Publier le rapport
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rapports
+          git diff --cached --quiet || git commit -m "Rapport declarations accessibilite"
+          git push
